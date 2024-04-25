@@ -1,0 +1,14 @@
+[
+  {
+    "functionName": "processData",
+    "file1Lines": [
+      21,
+      32
+    ],
+    "file2Lines": [
+      21,
+      32
+    ],
+    "duplicatedContent": "function processData(data) {\r\n    let processedData = [];\r\n    for (let item of data) {\r\n        let newItem = {\r\n            id: item.id,\r\n            name: item.name.toUpperCase(),\r\n            price: item.price * 1.1\r\n        };\r\n        processedData.push(newItem);\r\n    }\r\n    return processedData;\r\n}\r"
+  }
+]
